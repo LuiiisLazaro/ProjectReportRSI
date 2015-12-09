@@ -49,6 +49,7 @@
 	\centering
     \vspace*{0.5 cm}
     
+    
     \begin{figure}
 		\centering
 		\subfloat{
@@ -92,6 +93,7 @@
     
     \section{Introducción}
 
+En el problema que se abordó sobre el casos de uso, fue sobre las actividades que realizá Jessica Garrido Sánchez quien se encarga de administrar 
 
 \chapter{Análisis del Problema}
 
@@ -100,7 +102,44 @@
     
     \section{Historias de Usuario}
     
+    \begin{description}
+        \item[<Lable>]: HU1
+        \begin{description}
+            \item[``Yo como"] <<role>>, Usuario
+            
+        \end{description}
+    \end{description}
+    
+<Label> :
+"As a <role>, I
+want <goal/desire> so
+that <benefit> “.
+<date>
+<responsible>.    
+    
+    \begin{table}
+        \begin{center}
+            \caption{H}
+            \label{table:ResultsSearchStringOutStandingStudies}
+            \begin{tabular}{| p{6cm} | p{1cm} | p{1cm} | p{1cm} | p{4cm} |}
+                \toprule
+                \hline
+                \textbf{Fuente /Cadena} & \textbf{ss1} & \textbf{ss2} & \textbf{ss3} & \textbf{Total por Biblioteca Digital}\\ \hline
+                ACM Digital Library & 13 & 4 & 3 & 20 \\ \hline
+            \end{tabular}
+        \end{center}
+    \end{table}
+    
     \section{Diagrama de Casos de Uso}
+    
+    \begin{figure}
+		\centering
+		\subfloat{
+			\label{logoCimat}
+		    \includegraphics[scale = 0.80]{images/1models/useCase.png}
+		}
+	\end{figure}    
+    
     
     \section{Diagrama BPMN (Business Process Model and Notacion)}
     
