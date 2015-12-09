@@ -25,7 +25,7 @@
 \setmarginsrb{3 cm}{2.5 cm}{3 cm}{2.5 cm}{1 cm}{1.5 cm}{1 cm}{1.5 cm}
 
 \title{\textsc{Reporte Proyecto Requerimientos de Proceso de Viáticos}}
-\author{Luis Angel Hernández Lázaro}
+\author{Luis Angel Hernández Lázaro \\ Daniel Mendez Cruz}
 \date{\today}
 
 \makeatletter
@@ -88,65 +88,27 @@
 \pagebreak
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\chapter{Inicio}
+\chapter{Identificación del Problema}
     
     \section{Introducción}
 
 
-\chapter{Revisión Sistemática}
+\chapter{Análisis del Problema}
 
     \section{Introducción}
+    En esta sección del trabajo se encuentran descritos los artefactos creados para visualizar el análisis de los requerimientos,entre los artefactos que se han creado se encuentran: \emph{Historias de Usuario}, \emph{Diagrama de Casos de Uso}, \emph{Diagrama de BPMN (Business Process Model and Notacion)} y el \emph{Diagrama de Clases}.    
     
-    \section{Background}
+    \section{Historias de Usuario}
     
-    \section{El Proceso de la Revisión Sistemática}
+    \section{Diagrama de Casos de Uso}
     
-
-        \subsection{Planeación de la Revisión Sistemática}
+    \section{Diagrama BPMN (Business Process Model and Notacion)}
     
-    	    \subsubsection{Identificación de la Necesidad de la Revisión Sistemática} \label{needs}
-    	    
-	
-    	    \subsubsection{Especificación de las Preguntas de Investigación}
-            
-            \subsubsection{Evaluación del Protocolo de Revisión}
-
-
-        \subsection{Ejecución de la Revisión}
+    \section{Diagrama de clases}
     
-    
-            \subsubsection{Selección de las Fuentes / Identificación de la Investigación}
-    
-
-    
-            \subsubsection{Procedimiento de Selección de los Estudios Primarios}
-    
-            \subsubsection{Evaluación de la Calidad de los Estudios}
-    
-    	    \subsubsection{Extracción y Monitoreo de la Información}
-	
-    	    \subsubsection{Síntesis de la Información}
-	
-	    \subsection{Reporte de Resultados}
-	
-    	    \subsubsection{Revisiones Literarias}    
-    
-            \subsubsection{Métodos Existentes}
-        
-            \subsubsection{Evaluación del Reporte}
-        
     \section{Conclusiones}
-    
-    \section*{Acknowledgments} % The \section*{} command stops section numbering
-
-    \addcontentsline{toc}{section}{Acknowledgments} % Adds this section to the table of contents  
-    
-    \newpage
-    \bibliographystyle{acm}
-    \bibliography{biblist}
-    
-    
-\chapter{Lecciones Aprendidas de una Revisión Sistemática}
+       
+\chapter{Lecciones Aprendidas de una Identificación de Requerimientos}
     
     \section{Lecciones Aprendidas}
     
