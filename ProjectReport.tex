@@ -1,0 +1,157 @@
+\documentclass{report}
+\usepackage[spanish]{babel}
+\usepackage{natbib}
+\usepackage{url}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\graphicspath{{images/}}
+\usepackage{parskip}
+\usepackage{fancyhdr}
+\usepackage{vmargin}
+\usepackage{subfig}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumerate}
+\usepackage[usenames]{color}
+\usepackage{soul}
+\usepackage{float}
+\usepackage[T1]{fontenc}
+\usepackage{verbatim}
+\usepackage{multicol}
+\usepackage{listings}
+\usepackage{multirow}
+\usepackage{booktabs}
+
+\setmarginsrb{3 cm}{2.5 cm}{3 cm}{2.5 cm}{1 cm}{1.5 cm}{1 cm}{1.5 cm}
+
+\title{\textsc{Reporte Proyecto Requerimientos de Proceso de Viáticos}}
+\author{Luis Angel Hernández Lázaro}
+\date{\today}
+
+\makeatletter
+\let\thetitle\@title
+\let\theauthor\@author
+\let\thedate\@date
+\makeatother
+
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\theauthor}
+\lhead{\thetitle}
+\cfoot{\thepage}
+\setcounter{secnumdepth}{5}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{titlepage}
+	\centering
+    \vspace*{0.5 cm}
+    
+    \begin{figure}
+		\centering
+		\subfloat{
+			\label{logoCimat}
+		    \includegraphics[scale = 0.15]{images/0cover/logoCimat.png}
+		}
+	\end{figure}
+    \textsc{\LARGE Centro de Investigación en Matemáticas A.C.}\\[1.0 cm]
+	\textsc{\Large Maestría en Ingeniería de Software}\\[0.5 cm]
+	\textsc{\large Requerimientos de Ingeniería de Software\\Dr. Hugo Arnoldo Mitre}\\[0.5 cm]
+	\rule{\linewidth}{0.2 mm} \\[0.4 cm]
+	{ \huge \bfseries \thetitle}\\ \textsc{\large Daniel Mendez Cruz\\ Luis Angel Hernández Lázaro}
+	\rule{\linewidth}{0.2 mm} \\[1.5 cm]
+	
+	\begin{minipage}{0.5\textwidth}
+		\begin{flushleft} \large
+			\emph{Correo:}\\
+			daniel.mendez@cimat.mx
+		\end{flushleft}
+	\end{minipage}~
+	\begin{minipage}{0.4\textwidth}
+		\begin{flushright} \large
+			\emph{Correo:} \\
+			luis.hernandez@cimat.mx
+		\end{flushright}
+	\end{minipage}\\[2 cm]
+		
+	{\large \thedate}\\[2 cm]
+ 
+	\vfill
+	
+\end{titlepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\tableofcontents
+\pagebreak
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Inicio}
+    
+    \section{Introducción}
+
+
+\chapter{Revisión Sistemática}
+
+    \section{Introducción}
+    
+    \section{Background}
+    
+    \section{El Proceso de la Revisión Sistemática}
+    
+
+        \subsection{Planeación de la Revisión Sistemática}
+    
+    	    \subsubsection{Identificación de la Necesidad de la Revisión Sistemática} \label{needs}
+    	    
+	
+    	    \subsubsection{Especificación de las Preguntas de Investigación}
+            
+            \subsubsection{Evaluación del Protocolo de Revisión}
+
+
+        \subsection{Ejecución de la Revisión}
+    
+    
+            \subsubsection{Selección de las Fuentes / Identificación de la Investigación}
+    
+
+    
+            \subsubsection{Procedimiento de Selección de los Estudios Primarios}
+    
+            \subsubsection{Evaluación de la Calidad de los Estudios}
+    
+    	    \subsubsection{Extracción y Monitoreo de la Información}
+	
+    	    \subsubsection{Síntesis de la Información}
+	
+	    \subsection{Reporte de Resultados}
+	
+    	    \subsubsection{Revisiones Literarias}    
+    
+            \subsubsection{Métodos Existentes}
+        
+            \subsubsection{Evaluación del Reporte}
+        
+    \section{Conclusiones}
+    
+    \section*{Acknowledgments} % The \section*{} command stops section numbering
+
+    \addcontentsline{toc}{section}{Acknowledgments} % Adds this section to the table of contents  
+    
+    \newpage
+    \bibliographystyle{acm}
+    \bibliography{biblist}
+    
+    
+\chapter{Lecciones Aprendidas de una Revisión Sistemática}
+    
+    \section{Lecciones Aprendidas}
+    
+    \section{Trabajos Futuros}
+    
+    \section{conclusiones}
+
+\end{document}
