@@ -21,11 +21,12 @@
 \usepackage{listings}
 \usepackage{multirow}
 \usepackage{booktabs}
+\usepackage{moreverb} 
 
 \setmarginsrb{3 cm}{2.5 cm}{3 cm}{2.5 cm}{1 cm}{1.5 cm}{1 cm}{1.5 cm}
 
 \title{\textsc{Reporte Proyecto Requerimientos de Proceso de Viáticos}}
-\author{Luis Angel Hernández Lázaro \\ Daniel Mendez Cruz}
+\author{Luis Angel Hernández Lázaro \\ }
 \date{\today}
 
 \makeatletter
@@ -61,7 +62,7 @@
 	\textsc{\Large Maestría en Ingeniería de Software}\\[0.5 cm]
 	\textsc{\large Requerimientos de Ingeniería de Software\\Dr. Hugo Arnoldo Mitre}\\[0.5 cm]
 	\rule{\linewidth}{0.2 mm} \\[0.4 cm]
-	{ \huge \bfseries \thetitle}\\ \textsc{\large Daniel Mendez Cruz\\ Luis Angel Hernández Lázaro}
+	{ \huge \bfseries \thetitle}\\ \textsc{\large \\ Luis Angel Hernández Lázaro}
 	\rule{\linewidth}{0.2 mm} \\[1.5 cm]
 	
 	\begin{minipage}{0.5\textwidth}
@@ -98,25 +99,193 @@ En el problema que se abordó sobre el casos de uso, fue sobre las actividades q
 \chapter{Análisis del Problema}
 
     \section{Introducción}
-    En esta sección del trabajo se encuentran descritos los artefactos creados para visualizar el análisis de los requerimientos,entre los artefactos que se han creado se encuentran: \emph{Historias de Usuario}, \emph{Diagrama de Casos de Uso}, \emph{Diagrama de BPMN (Business Process Model and Notacion)} y el \emph{Diagrama de Clases}.    
+    En esta sección del trabajo se encuentran descritos los artefactos creados para visualizar el análisis de los requerimientos,entre los artefactos que se han creado se encuentran: \emph{Historias de Usuario}, \emph{Diagrama de Casos de Uso}, \emph{Diagrama de BPMN (Business Process Model and Notacion)} y el \emph{Diagrama de Clases}.\\ 
+    Las \emph{Historias de Usuario} son empleadas para describir una funcionalidad que es de gran valor para el usuario del sistema. Son Utilizadas para permitir la comprensión por parte de todo el equipo de desarrollo involucrado, además ayudan  a tener una planificación eficaz.\\
+    
     
     \section{Historias de Usuario}
+    A continuación se presentan las Historias de Usuario Identificadas como requerimientos para el usuario.
     
-    \begin{description}
-        \item[<Lable>]: HU1
+    \fbox{\parbox[b]{\linewidth}{
         \begin{description}
-            \item[``Yo como"] <<role>>, Usuario
-            
+            \item[<<Etiqueta>>]: HU1
+            \begin{description}
+                \item[``Yo como]: <<rol>>, Usuario
+                \item[quiero]: <<Objetivo/Deseo>> dinero
+                \item[para]: <<Beneficio>> ''.
+            \end{description}
+            \item[<<Fecha>>]: 8-Dic-15
+            \item[<<Responsable>>]: 
         \end{description}
-    \end{description}
+    }}
     
-<Label> :
-"As a <role>, I
-want <goal/desire> so
-that <benefit> “.
-<date>
-<responsible>.    
+    \fbox{\parbox[b]{\linewidth}{
+        \begin{description}
+            \item[<<Etiqueta>>]: HU2
+            \begin{description}
+                \item[``Yo como]: <<rol>>, Usuario
+                \item[quiero]: <<Objetivo/Deseo>> 
+                \item[para]: <<Beneficio>> ''.
+            \end{description}
+            \item[<<Fecha>>]: 8-Dic-15
+            \item[<<Responsable>>]: 
+        \end{description}
+    }}
     
+    \fbox{\parbox[b]{\linewidth}{
+        \begin{description}
+            \item[<<Etiqueta>>]: HU3
+            \begin{description}
+                \item[``Yo como]: <<rol>>, Usuario
+                \item[quiero]: <<Objetivo/Deseo>> 
+                \item[para]: <<Beneficio>> ''.
+            \end{description}
+            \item[<<Fecha>>]: 8-Dic-15
+            \item[<<Responsable>>]: 
+        \end{description}
+    }}
+    
+    \fbox{\parbox[b]{\linewidth}{
+        \begin{description}
+            \item[<<Etiqueta>>]: HU4
+            \begin{description}
+                \item[``Yo como]: <<rol>>, Usuario
+                \item[quiero]: <<Objetivo/Deseo>> 
+                \item[para]: <<Beneficio>> ''.
+            \end{description}
+            \item[<<Fecha>>]: 8-Dic-15
+            \item[<<Responsable>>]: 
+        \end{description}
+    }}
+
+    \fbox{\parbox[b]{\linewidth}{
+        \begin{description}
+            \item[<<Etiqueta>>]: HU5
+            \begin{description}
+                \item[``Yo como]: <<rol>>, Usuario
+                \item[quiero]: <<Objetivo/Deseo>> 
+                \item[para]: <<Beneficio>> ''.
+            \end{description}
+            \item[<<Fecha>>]: 8-Dic-15
+            \item[<<Responsable>>]: 
+        \end{description}
+    }}
+    
+    
+    \fbox{\parbox[b]{\linewidth}{
+        \begin{description}
+            \item[<<Etiqueta>>]: HU6
+            \begin{description}
+                \item[``Yo como]: <<rol>>, Usuario
+                \item[quiero]: <<Objetivo/Deseo>> 
+                \item[para]: <<Beneficio>> ''.
+            \end{description}
+            \item[<<Fecha>>]: 8-Dic-15
+            \item[<<Responsable>>]: 
+        \end{description}
+    }}
+    
+    \fbox{\parbox[b]{\linewidth}{
+        \begin{description}
+            \item[<<Etiqueta>>]: HU7
+            \begin{description}
+                \item[``Yo como]: <<rol>>, Usuario
+                \item[quiero]: <<Objetivo/Deseo>> 
+                \item[para]: <<Beneficio>> ''.
+            \end{description}
+            \item[<<Fecha>>]: 8-Dic-15
+            \item[<<Responsable>>]: 
+        \end{description}
+    }}    
+    
+    \fbox{\parbox[b]{\linewidth}{
+        \begin{description}
+            \item[<<Etiqueta>>]: HU8
+            \begin{description}
+                \item[``Yo como]: <<rol>>, Usuario
+                \item[quiero]: <<Objetivo/Deseo>> 
+                \item[para]: <<Beneficio>> ''.
+            \end{description}
+            \item[<<Fecha>>]: 8-Dic-15
+            \item[<<Responsable>>]: 
+        \end{description}
+    }}
+
+    \fbox{\parbox[b]{\linewidth}{
+        \begin{description}
+            \item[<<Etiqueta>>]: HU9
+            \begin{description}
+                \item[``Yo como]: <<rol>>, Usuario
+                \item[quiero]: <<Objetivo/Deseo>> 
+                \item[para]: <<Beneficio>> ''.
+            \end{description}
+            \item[<<Fecha>>]: 8-Dic-15
+            \item[<<Responsable>>]: 
+        \end{description}
+    }}
+    
+    \fbox{\parbox[b]{\linewidth}{
+        \begin{description}
+            \item[<<Etiqueta>>]: HU10
+            \begin{description}
+                \item[``Yo como]: <<rol>>, Usuario
+                \item[quiero]: <<Objetivo/Deseo>> 
+                \item[para]: <<Beneficio>> ''.
+            \end{description}
+            \item[<<Fecha>>]: 8-Dic-15
+            \item[<<Responsable>>]: 
+        \end{description}
+    }}
+    
+    \fbox{\parbox[b]{\linewidth}{
+        \begin{description}
+            \item[<<Etiqueta>>]: HU11
+            \begin{description}
+                \item[``Yo como]: <<rol>>, Usuario
+                \item[quiero]: <<Objetivo/Deseo>> 
+                \item[para]: <<Beneficio>> ''.
+            \end{description}
+            \item[<<Fecha>>]: 8-Dic-15
+            \item[<<Responsable>>]: 
+        \end{description}
+    }}
+    
+    \fbox{\parbox[b]{\linewidth}{
+        \begin{description}
+            \item[<<Etiqueta>>]: HU12
+            \begin{description}
+                \item[``Yo como]: <<rol>>, Usuario
+                \item[quiero]: <<Objetivo/Deseo>> 
+                \item[para]: <<Beneficio>> ''.
+            \end{description}
+            \item[<<Fecha>>]: 8-Dic-15
+            \item[<<Responsable>>]: 
+        \end{description}
+    }}
+    
+    \fbox{\parbox[b]{\linewidth}{
+        \begin{description}
+            \item[<<<Etiqueta>>>]: HU13
+            \begin{description}
+                \item[``Yo como]: <<rol>>, Usuario
+                \item[quiero]: <<Objetivo/Deseo>> 
+                \item[para]: <<Beneficio>> ''.
+            \end{description}
+            \item[<<Fecha>>]: 8-Dic-15
+            \item[<<Responsable>>]: 
+        \end{description}
+    }}
+       
+    \section{Diagrama de Casos de Uso}
+    
+    \begin{figure}
+		\centering
+		\subfloat{
+			\label{logoCimat}
+		    \includegraphics[scale = 0.80]{images/1models/useCase.png}
+		}
+	\end{figure}    
+	
     \begin{table}
         \begin{center}
             \caption{H}
@@ -129,16 +298,7 @@ that <benefit> “.
             \end{tabular}
         \end{center}
     \end{table}
-    
-    \section{Diagrama de Casos de Uso}
-    
-    \begin{figure}
-		\centering
-		\subfloat{
-			\label{logoCimat}
-		    \includegraphics[scale = 0.80]{images/1models/useCase.png}
-		}
-	\end{figure}    
+
     
     
     \section{Diagrama BPMN (Business Process Model and Notacion)}
