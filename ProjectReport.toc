@@ -1,10 +1,10 @@
 \select@language {spanish}
-\contentsline {chapter}{\numberline {1}Identificaci\IeC {\'o}n del Problema}{3}{chapter.1}
-\contentsline {section}{\numberline {1.1}Introducci\IeC {\'o}n}{3}{section.1.1}
-\contentsline {chapter}{\numberline {2}An\IeC {\'a}lisis del Problema}{4}{chapter.2}
-\contentsline {section}{\numberline {2.1}Introducci\IeC {\'o}n}{4}{section.2.1}
-\contentsline {section}{\numberline {2.2}Historias de Usuario}{4}{section.2.2}
-\contentsline {section}{\numberline {2.3}Diagrama de Casos de Uso}{7}{section.2.3}
+\contentsline {chapter}{\numberline {1}Identificaci\IeC {\'o}n del Problema}{2}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introducci\IeC {\'o}n}{2}{section.1.1}
+\contentsline {chapter}{\numberline {2}An\IeC {\'a}lisis del Problema}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Introducci\IeC {\'o}n}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Historias de Usuario}{3}{section.2.2}
+\contentsline {section}{\numberline {2.3}Diagrama de Casos de Uso}{5}{section.2.3}
 \contentsline {section}{\numberline {2.4}Diagrama BPMN (Business Process Model and Notacion)}{9}{section.2.4}
 \contentsline {section}{\numberline {2.5}Diagrama de clases}{10}{section.2.5}
 \contentsline {section}{\numberline {2.6}Conclusiones}{10}{section.2.6}
