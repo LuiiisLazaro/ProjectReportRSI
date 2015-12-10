@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.11.27)  10 DEC 2015 00:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.11.27)  10 DEC 2015 14:00
 entering extended mode
 **ProjectReport.tex
 (ProjectReport.tex
@@ -1295,7 +1295,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 281.
 Here is how much of TeX's memory you used:
  10318 strings out of 493673
  147757 string characters out of 3143956
- 255892 words of memory out of 3000000
+ 255895 words of memory out of 3000000
  13498 multiletter control sequences out of 15000+200000
  16108 words of font info for 33 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -1316,9 +1316,9 @@ ts\pk\ljfour\jknappen\ec\dpi600\eccc1200.pk> <C:\Users\daniel\AppData\Local\MiK
 TeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1440.pk> <C:\Users\daniel\AppDat
 a\Local\MiKTeX\2.9\fonts\pk\ljfour\jknappen\ec\dpi600\eccc1728.pk>
 Output written on C:/Users/daniel/Documents/ReportMItre/build/ProjectReport.pdf
- (10 pages, 632986 bytes).
+ (10 pages, 632778 bytes).
 PDF statistics:
- 525 PDF objects out of 1000 (max. 8388607)
+ 524 PDF objects out of 1000 (max. 8388607)
  29 named destinations out of 1000 (max. 500000)
  125 words of extra memory for PDF output out of 10000 (max. 10000000)
 
