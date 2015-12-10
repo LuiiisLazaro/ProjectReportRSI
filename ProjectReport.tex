@@ -23,10 +23,10 @@
 \usepackage{booktabs}
 \usepackage{moreverb} 
 
-\setmarginsrb{3 cm}{2.5 cm}{3 cm}{2.5 cm}{1 cm}{1.5 cm}{1 cm}{1.5 cm}
+\setmarginsrb{2.5 cm}{2.5 cm}{2.5 cm}{2.5 cm}{1 cm}{1.5 cm}{1 cm}{1.5 cm}
 
 \title{\textsc{Reporte Proyecto Requerimientos de Proceso de Viáticos}}
-\author{Luis Angel Hernández Lázaro \\ }
+\author{Luis Angel Hernández Lázaro  Daniel Méndez C.\\ }
 \date{\today}
 
 \makeatletter
@@ -62,7 +62,7 @@
 	\textsc{\Large Maestría en Ingeniería de Software}\\[0.5 cm]
 	\textsc{\large Requerimientos de Ingeniería de Software\\Dr. Hugo Arnoldo Mitre}\\[0.5 cm]
 	\rule{\linewidth}{0.2 mm} \\[0.4 cm]
-	{ \huge \bfseries \thetitle}\\ \textsc{\large \\ Luis Angel Hernández Lázaro}
+	{ \huge \bfseries \thetitle}\\ \textsc{\large \\ Luis Angel Hernández Lázaro \\ Daniel Méndez Cruz}
 	\rule{\linewidth}{0.2 mm} \\[1.5 cm]
 	
 	\begin{minipage}{0.5\textwidth}
@@ -94,7 +94,12 @@
     
     \section{Introducción}
 
-En el problema que se abordó sobre el casos de uso, fue sobre las actividades que realizá Jessica Garrido Sánchez quien se encarga de administrar 
+En el problema que se abordó sobre el casos de uso, fue sobre las actividades que realizá \textbf{Jessica Garrido Sánchez}  quien se encarga de la administración y tramitar de las comisiones que los investigadores realizan en la temporada escolar. Ella es la encargada de gestionar todos los requisitos y documentos que se necesitan para que los investigadores realicen sus comisiones con los recursos necesarios, y de esa forma tener comprobantes de gastos que ellos le proveerán en el momento de su retorno.\\\\
+Al principio ellos llenan un cuestionario que sirve como base para poder generar el oficio de comisión que será validadp por \textbf{Jessica} la cuál lo turna al Director de Cimat el Dr. \textbf{Cuauhtémoc Lemus}.\\\\
+Previamente se generá una relación de gastos o una solicitud de fondos dependiendo de la opción que el investigador haya tomado previamente.\\\\
+Una vez realizado este movimiento se procede al envío de la documentación a Guanajuato los cuales consisten en Oficio de comisión, relación de gastos e informe de comisión, estos documentos se envían tanto electrónico como físico.\\\\
+Después de los trámites realizados sólo queda esperar que Cimat Guanajuato corrobore los documentos y los montos declarados en ellos para hacer efectivos los depósitos en las cuentas de los investigadores.\\\\
+Cabe aclarar que para enviar los documentos a Guanajuato el Dr.\textbf{Cuauhtémoc Lemus} se encarga de firmar ya sea la solicitud de fondos o la relación de gastos para que pueda ser depósitado a los Investigadores a tiempo y conforme a la ley organica de la institución. 
 
 \chapter{Análisis del Problema}
 
@@ -278,30 +283,26 @@ En el problema que se abordó sobre el casos de uso, fue sobre las actividades q
        
     \section{Diagrama de Casos de Uso}
     
-    \begin{figure}
+    \begin{figure}[H]
 		\centering
-		\subfloat{
 			\label{logoCimat}
 		    \includegraphics[scale = 0.80]{images/1models/useCase.png}
-		}
-	\end{figure}    
-	
-    \begin{table}
-        \begin{center}
-            \caption{H}
-            \label{table:ResultsSearchStringOutStandingStudies}
-            \begin{tabular}{| p{6cm} | p{1cm} | p{1cm} | p{1cm} | p{4cm} |}
-                \toprule
-                \hline
-                \textbf{Fuente /Cadena} & \textbf{ss1} & \textbf{ss2} & \textbf{ss3} & \textbf{Total por Biblioteca Digital}\\ \hline
-                ACM Digital Library & 13 & 4 & 3 & 20 \\ \hline
-            \end{tabular}
-        \end{center}
-    \end{table}
 
-    
+	\end{figure}    
     
     \section{Diagrama BPMN (Business Process Model and Notacion)}
+    
+    	\begin{figure}[H]
+    		\centering
+    			\includegraphics[scale=0.80]{images/1models/comision.png}  
+    			\caption{Texto}  		
+    	\end{figure}
+    	
+    	\begin{figure}[H]
+    		\centering
+    			\includegraphics[scale=0.80]{images/1models/envioGto.png}
+    	
+    	\end{figure}
     
     \section{Diagrama de clases}
     
