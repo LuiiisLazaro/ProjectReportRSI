@@ -98,7 +98,7 @@
     
     \section{Introducción}
 
-    En el problema que se aborda en este trabajo es acerca de las actividades que realizá la L.I.N. \textbf{Jessica Garrido Sánchez}, que es la persona encarga del tramite y la administración correspondientes para las comisiones que  realizan los investigadores durante la temporada escolar. La L.I.N. \textbf{Jessica} se encarga de gestionar los requisitos y los documentos necesarios para que los investigadores realicen sus comisiones, con los recursos necesarios y de esta forma tener el apoyo de la institución educativa, siempre y cuando los investigadores realicen la entrega de sus comprobantes de los gastos al finalizar la comisión.\\\\
+    En el problema que se aborda en este trabajo es acerca de las actividades que realizá la L.I.N. \textbf{Jessica Garrido Sánchez}, que es la persona encarga del tramite y la administración correspondientes para las comisiones de realizan investigadores durante la temporada escolar. La L.I.N. \textbf{Jessica} se encarga de gestionar los requisitos y los documentos necesarios para que los investigadores realicen sus comisiones con los recursos necesarios y de esta forma tener el apoyo de la institución educativa, siempre y cuando los investigadores realicen la entrega de sus comprobantes de los gastos al finalizar la comisión.\\\\
 Al principio del proceso, los investigadores llenan un cuestionario que sirve para recabar la información básica para generar el oficio de comisión, el cual será validado por la L.I.N. \textbf{Jessica} y a su vez lo envía para su autorización con el Director de CIMAT, en este caso con el Dr. \textbf{Cuauhtémoc Lemus}.\\\\
 Previamente se generá una relación de gastos o una solicitud de fondos dependiendo de la opción que el investigador haya seleccionado para su comisión. Una vez realizado este documentos, se procede al envío de la documentación a Guanajuato, los cuales consisten en: Oficio de comisión, relación de gastos e informe de comisión; estos documentos se envían tanto de manera electrónica como física.\\\\
 Después de los trámites realizados sólo queda esperar que el departamento de administración ubicado en CIMAT Guanajuato corroboren los documentos y los montos declarados, una vez validados de manera correcta son ellos quienes se encargan de realizar los depósitos a las cuentas bancarias de los investigadores.\\\\
@@ -107,12 +107,12 @@ Cabe aclarar que para enviar los documentos a Guanajuato el Dr.\textbf{Cuauhtém
 \chapter{Análisis del Problema}
 
     En esta sección del trabajo se encuentran descritos los artefactos creados para visualizar el análisis de los requerimientos,entre los artefactos que se han creado se encuentran: \emph{Historias de Usuario}, \emph{Diagrama de Casos de Uso}, \emph{Diagrama de BPMN (Business Process Model and Notacion)} y el \emph{Diagrama de Clases}.\\\\
-    Las \emph{Historias de Usuario} son empleadas para describir una funcionalidad que es de gran valor para el usuario del sistema, son utilizadas para permitir la comprensión por parte de todo el equipo de desarrollo involucrado, además ayudan a tener una planificación eficaz.\\\\
+    Las \emph{Historias de Usuario} son empleadas para describir una funcionalidad que es de gran valor para el usuario del sistema. Son Utilizadas para permitir la comprensión por parte de todo el equipo de desarrollo involucrado, además ayudan a tener una planificación eficaz.\\\\
     Los \emph{Casos de Uso} son empleados para representar la  interacción de cada involucrado en el sistema, el actor puede ser un humano o un sistema, los casos casos de uso son asociados con los actores.\\\\
-    El \emph{Diagrama de BPMN} es un estándar para el modelado de procesos de negocios, por medio de una notación para definir desde lo simple hasta lo más complejo. Participan quienes están involucrados en un proceso: personas u  organizaciones.\\\\
-    El \emph{Diagrama de Clases} muestra las diferentes clases que componen un sistema y cómo se relacionan entre otras. Presentan una clase con sus atributos y métodos, así como sus relaciones, es decir que clases conocen o que clases forman parte de otra clase.
+    El \emph{Diagrama de BPMN} es un estándar para el modelado de procesos de negocios, por medio de una notación para definir desde lo simple hasta lo más complejo. Participan quienes están involucrados en un proceso: personas o organizaciones.\\\\
+    El \emph{Diagrama de Clases} muestra las diferentes clases que componen un sistema y cómo se relacionan entre otras. Muestran una clase con sus atributos y métodos, así como sus relaciones, es decir que clases conocen o que clases forman parte de otra clase.
     
-    \section{Historias de Usuario}
+    \section{Historias de Usuario}\label{HU}
     A continuación se presentan las Historias de Usuario Identificadas como requerimientos para el usuario. Primero se muestra un listado de las actividades principales identificadas, posteriormente se muestra el detalle de las historias de usuario.
     
     Listado de Actividades Principales:
@@ -264,7 +264,7 @@ Cabe aclarar que para enviar los documentos a Guanajuato el Dr.\textbf{Cuauhtém
        
     \section{Diagrama de Casos de Uso}
     
-    En esta sección se muestra el diagrama de casos de uso, propuesto para el análisis de requerimientos (Figura 2.1), conformado por 16 Casos de Uso. A continuación se muestra una breve descripción  de los casos de uso identificados.\\
+    En esta sección se muestra el diagrama de casos de uso, propuesto para el análisis de requerimientos (Figura \ref{useCase}), conformado por 16 Casos de Uso. A continuación se muestra una breve descripción  de los casos de uso identificados.\\
     \begin{enumerate}
         \item Asistente    
         \begin{description}
@@ -313,35 +313,21 @@ Cabe aclarar que para enviar los documentos a Guanajuato el Dr.\textbf{Cuauhtém
 	\end{figure}    
     
     \section{Diagrama BPMN (Business Process Model and Notacion)}
-    En esta sección se muestra el diagrama de Business Process Model and Notation (Figura 2.2), el cual describe el proceso para administrar las comisiones realizadas por los Investigadores.
-    En la Figura 2.3 se muestra el subproceso para realizar el reembolso desde el departamento administrativo en CIMAT Guanajuato.
+    En esta sección se muestra el diagrama de Business Process Model and Notation (Figura \ref{BPMN}), el cual describe el proceso para administrar las comisiones realizadas por los Investigadores.
     A continuación se presenta el flujo normal para realizar el proceso:
     \begin{enumerate}
-        \item Comprobación de fondos.
-        \item Notificar a investigadores la autorización.
-        \item LLenar el cuestionario.
-        \item Generar Oficio de Comisión.
-        \item Validar Oficio de Comisión.
-        \item Autorización del Oficio de Comisión.
-        \item Entrega de Comprobantes.
-        \item Verificación de Comprobantes.
-        \item Generar relación de gastos / solicitud de fondos.
-        \item Firma relación de gastos / solicitud de fondos.
-        \item Envío Documentación a Guanajuato.
-        \begin{enumerate}
-            \item Recepción de documentos.
-            \item Cotejar gastos.
-            \item Depositar a cuenta bancaria del investigador.
-        \end{enumerate}
+        \item fondos
+        \item autorización
     \end{enumerate}
-    	\begin{figure}[H]
+    	\begin{figure}
     		\begin{center}
     			\includegraphics[scale=0.70]{images/1models/comision.png}  
     			\caption{Diagrama BPMN}  		
     		\end{center}
             \label{BPMN}
     	\end{figure}
-    
+    En la Figura \ref{subProcesoBPMN} se muestra el subproceso para realizar el reembolso desde el departamento administrativo en CIMAT Guanajuato.
+
     	\begin{figure}[H]
     		\begin{center}
     			\includegraphics[scale=0.80]{images/1models/envioGto.png}
@@ -351,7 +337,7 @@ Cabe aclarar que para enviar los documentos a Guanajuato el Dr.\textbf{Cuauhtém
     	\end{figure}
     
     \section{Diagrama de clases}
-    En esta sección se muestra el diagrama de clases (Figura 2.4) identificado con base en las historias de usuario y nuestros casos de uso.
+    En esta sección se muestra el diagrama de clases (Figura \ref{classDiagram}) identificado con base en las historias de usuario y nuestros casos de uso (Sección \ref{HU}).
       	\begin{figure}
             \begin{center}
     			\includegraphics[scale=0.80]{images/1models/DiagramaClases.png}
