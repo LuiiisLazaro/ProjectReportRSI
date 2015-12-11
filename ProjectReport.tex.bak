@@ -99,7 +99,7 @@ Al principio ellos llenan un cuestionario que sirve como base para poder generar
 Previamente se generá una relación de gastos o una solicitud de fondos dependiendo de la opción que el investigador haya tomado previamente.\\\\
 Una vez realizado este movimiento se procede al envío de la documentación a Guanajuato los cuales consisten en Oficio de comisión, relación de gastos e informe de comisión, estos documentos se envían tanto electrónico como físico.\\\\
 Después de los trámites realizados sólo queda esperar que Cimat Guanajuato corrobore los documentos y los montos declarados en ellos para hacer efectivos los depósitos en las cuentas de los investigadores.\\\\
-Cabe aclarar que para enviar los documentos a Guanajuato el Dr.\textbf{Cuauhtémoc Lemus} se encarga de firmar ya sea la solicitud de fondos o la relación de gastos para que pueda ser depósitado a los Investigadores a tiempo y conforme a la ley organica de la institución.
+Cabe aclarar que para enviar los documentos a Guanajuato el Dr.\textbf{Cuauhtémoc Lemus} se encarga de firmar ya sea la solicitud de fondos o la relación de gastos para que pueda ser depósitado a los Investigadores a tiempo y cownforme a la ley organica de la institución. 
 
 \chapter{Análisis del Problema}
 
@@ -131,7 +131,7 @@ Cabe aclarar que para enviar los documentos a Guanajuato el Dr.\textbf{Cuauhtém
             \begin{description}
                 \item[``Yo como]: Asistente.
                 \item[quiero]: Obtener información especifica de los Investigadores.
-                \item[para]: Generar el oficio de comisión ''.
+                \item[para]: Poder generar el oficio de comisión''.
             \end{description}
             \item[<<Fecha>>]: 8-Dic-15
             \item[<<Responsable>>]: Jessica Garrido Sánchez
@@ -170,7 +170,7 @@ Cabe aclarar que para enviar los documentos a Guanajuato el Dr.\textbf{Cuauhtém
             \begin{description}
                 \item[``Yo como]: Asistente.
                 \item[quiero]: Validar oficio de comisión.
-                \item[para]: Tener calidad en el tramite de comisión''.
+                \item[para]: Evitar problemas en el proceso de reembolso de gastos.''.
             \end{description}
             \item[<<Fecha>>]: 8-Dic-15
             \item[<<Responsable>>]: Jessica Garrido Sánchez
@@ -181,8 +181,8 @@ Cabe aclarar que para enviar los documentos a Guanajuato el Dr.\textbf{Cuauhtém
         \begin{description}
             \item[<<Etiqueta>>]: HU5
             \begin{description}
-                \item[``Yo como]: Director.
-                \item[quiero]: Comprobar fondos del proyecto. 
+                \item[``Yo como]: Director
+                \item[quiero]: Comprobar fondos del Proyecto
                 \item[para]: Aprobar las solicitudes de comisión''.
             \end{description}
             \item[<<Fecha>>]: 8-Dic-15
@@ -190,13 +190,14 @@ Cabe aclarar que para enviar los documentos a Guanajuato el Dr.\textbf{Cuauhtém
         \end{description}
     }}
     
+    
     \fbox{\parbox[b]{\linewidth}{
         \begin{description}
             \item[<<Etiqueta>>]: HU6
             \begin{description}
                 \item[``Yo como]: Director.
                 \item[quiero]: Autorizar los oficios de comisión.
-                \item[para]: Conceder la comisión al Investigador''.
+                \item[para]:  Conceder la comisión al investigador''.
             \end{description}
             \item[<<Fecha>>]: 8-Dic-15
             \item[<<Responsable>>]: Dr. Cuauhtémoc Lemus
@@ -208,8 +209,8 @@ Cabe aclarar que para enviar los documentos a Guanajuato el Dr.\textbf{Cuauhtém
             \item[<<Etiqueta>>]: HU7
             \begin{description}
                 \item[``Yo como]: Investigador.
-                \item[quiero]: Entregar comprobantes.
-                \item[para]: Devolver dinero que se gastó en la comisión''.
+                \item[quiero]: Entregar comprobantes .
+                \item[para]: 'devolver dinero que se gastó en la comisión'.
             \end{description}
             \item[<<Fecha>>]: 8-Dic-15
             \item[<<Responsable>>]: Investigadores
@@ -220,9 +221,9 @@ Cabe aclarar que para enviar los documentos a Guanajuato el Dr.\textbf{Cuauhtém
         \begin{description}
             \item[<<Etiqueta>>]: HU8
             \begin{description}
-                \item[``Yo como]: Asistente.
-                \item[quiero]: Generar relación de gastos / solicitud de fondos.
-                \item[para]: Enviar a firma''.
+                \item[``Yo como]: Asistente
+                \item[quiero]: Generar relación de gastos / solicitud de fondos 
+                \item[para]: 'Enviar a firma'.
             \end{description}
             \item[<<Fecha>>]: 8-Dic-15
             \item[<<Responsable>>]: Jessica Garrido Sánchez
@@ -233,9 +234,9 @@ Cabe aclarar que para enviar los documentos a Guanajuato el Dr.\textbf{Cuauhtém
         \begin{description}
             \item[<<Etiqueta>>]: HU9
             \begin{description}
-                \item[``Yo como]: Director.
-                \item[quiero]: Firmar relación de gastos / solicitud de fondos.
-                \item[para]: Enviar a Guanajuato''.
+                \item[``Yo como]: Director
+                \item[quiero]: Firmar solicitud de fondos / relación de gastos 
+                \item[para]: 'enviar a Guanajuato'.
             \end{description}
             \item[<<Fecha>>]: 8-Dic-15
             \item[<<Responsable>>]: Dr.Cuauhtémoc Lemus
@@ -246,63 +247,28 @@ Cabe aclarar que para enviar los documentos a Guanajuato el Dr.\textbf{Cuauhtém
         \begin{description}
             \item[<<Etiqueta>>]: HU10
             \begin{description}
-                \item[``Yo como]: Investigador.
-                \item[quiero]: Firmar el informe de comisión.
-                \item[para]: Reintegrar los gastos''.
+                \item[``Yo como]: Investigador
+                \item[quiero]: Firmar el informe de comisión
+                \item[para]: 'Reintregrar los gastos'.
             \end{description}
             \item[<<Fecha>>]: 8-Dic-15
             \item[<<Responsable>>]: Investigador (es)
         \end{description}
     }}
+    
        
     \section{Diagrama de Casos de Uso}
-    En esta sección se muestra el diagrama de casos de uso, propuesto para el análisis de requerimientos. A continuación se muestra una breve descripción  de los casos de uso identificados.\\
-    \begin{enumerate}
-        \item Asistente    
-        \begin{description}
-            \item[Enviar Documentación]: Caso de Uso para enviar el expediente de comisión a Guanajuato.
-            \begin{description}
-                \item[Documentación Electrónica]: Caso de Uso para enviar el expediente de manera electrónica a las oficinas en Guanajuato.
-                \item[Documentación Física]: Caso de Uso para enviar el expediente de manera física a las oficinas en Guanajuato.
-            \end{description}
-            \item[Validar Comprobantes de Viáticos]: Caso de Uso para verificar que los comprobantes tengan la información correcta.
-            \item[Registrar Comprobantes]: Caso de uso para registrar comprobantes de la comisión realizada por el investigador
-            \item[Generar Oficio de Comisión]: Caso de uso para imprimir el oficio de comisión del investigador.
-            \begin{description}
-                \item[Validar Oficio de Comisión]: Caso de uso para comprobar la información del oficio de comisión.
-            \end{description}
-            \item[Generar Informe de Comisión]: Caso de uso para imprimir el informe de comisión del investigador. 
-            \begin{description}
-                \item[Validar Informe de Comisión]: Caso de uso para comprobar la información del informe de comisión.
-            \end{description}
-            \item[Generar Relación de Gastos]: Caso de uso para generar la relación de gastos de los viáticos originados  durante la comisión.
-            \begin{description}
-                \item[Registrar Viáticos Alimentos]: Caso de uso para generar la relación de gastos de tipo Alimentos.
-                \item[Registrar Viáticos Hospedaje]: Caso de uso para generar la relación de gastos de tipo Hospedaje.
-                \item[Registrar Viáticos Transporte]: Caso de uso para generar la relación de gastos de tipo Transporte.
-            \end{description}
-        \end{description}    
-        \item Docente
-        \begin{description}
-            \item[LLenar Encuesta de Comisión]: Caso de uso para registrar la información necesaria para generar el oficio de comisión y el informe de comisión.
-        \end{description}
-        \item Director
-        \begin{description}
-            \item[Verificar Fondos]: Caso de Uso para comprobar si el proyecto tiene fondos para autorizar la comisión.
-            \item[Autorizar Oficio de Comisión]: Caso de uso para autorizar la comisión al investigador.
-                \begin{description}
-                    \item[Validar Oficio de Comisión]: Caso de uso para validar la información del oficio de comisión. 
-                \end{description}
-        \end{description}
-    \end{enumerate}
-    \begin{figure}
+    
+    \begin{figure}[H]
 		\centering
 			\label{logoCimat}
-		    \includegraphics[scale = 0.70]{images/1models/useCase.png}
+		    \includegraphics[scale = 0.80]{images/1models/useCase.png}
 			\caption{Diagrama de Casos de Uso} 
-	\end{figure}
+	\end{figure}    
+    
     \section{Diagrama BPMN (Business Process Model and Notacion)}
-        	\begin{figure}[H]
+    
+    	\begin{figure}[H]
     		\centering
     			\includegraphics[scale=0.80]{images/1models/comision.png}  
     			\caption{Diagrama BPMN}  		
@@ -320,10 +286,12 @@ Cabe aclarar que para enviar los documentos a Guanajuato el Dr.\textbf{Cuauhtém
        
 \chapter{Lecciones Aprendidas de una Identificación de Requerimientos}
     
+    \section{conclusiones}
+    Como resultado del análisis de requerimientos acerca del proceso para administrar los viáticos en las comisiones de los investigadores, es posible concluir que existe una gran importancia en la elicitación de requerimientos, debido a la comunicación con los clientes, los usuarios del sistema y otras personas que tengan relación sobre el producto de software a desarrollar.
+Además el uso de Historias de Usuario reduce el tiempo para la identificación de casos de uso, describiendo las actividades en forma directa y eliminando la ambigüedad que pueda originarse. Las historias de usuario permitieron identificar a los actores y las actividades a desarrollar, comprobando las necesidades básicas
+
     \section{Lecciones Aprendidas}
     
     \section{Trabajos Futuros}
-    
-    \section{conclusiones}
 
 \end{document}
