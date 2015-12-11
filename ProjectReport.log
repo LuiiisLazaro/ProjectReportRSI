@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.11.7)  11 DEC 2015 03:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2015.11.7)  11 DEC 2015 03:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -751,7 +751,7 @@ LaTeX Info: Redefining \nameref on input line 45.
 
 \c@lstlisting=\count154
 
-<images/0cover/logoCimat.png, id=48, 966.9726pt x 966.9726pt>
+<images/0cover/logoCimat.png, id=44, 966.9726pt x 966.9726pt>
 File: images/0cover/logoCimat.png Graphic file (type png)
 
 <use images/0cover/logoCimat.png>
@@ -971,6 +971,11 @@ Package babel Info: Redefining spanish shorthand "?
 [3
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 128--141
+
+ []
+
+
 Overfull \hbox (6.79999pt too wide) in paragraph at lines 128--141
 [] 
  []
@@ -1000,36 +1005,36 @@ Overfull \hbox (6.79999pt too wide) in paragraph at lines 206--207
 [][] 
  []
 
-
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 219.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 219.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 219.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 219.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 219.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 219.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 219.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 219.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 219.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 219.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 219.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 219.
+[4]
 Overfull \hbox (6.79999pt too wide) in paragraph at lines 219--220
 [][] 
  []
 
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 232.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 232.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 232.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 232.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 232.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 232.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 232.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 232.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 232.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 232.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 232.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 232.
-[4]
+
 Overfull \hbox (6.79999pt too wide) in paragraph at lines 232--233
 [][] 
  []
@@ -1069,35 +1074,60 @@ Underfull \hbox (badness 10000) in paragraph at lines 263--265
  []
 
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 276.
+(babel)             in language  on input line 271.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 276.
+(babel)             in language  on input line 271.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 276.
+(babel)             in language  on input line 271.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 276.
+(babel)             in language  on input line 271.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 276.
+(babel)             in language  on input line 271.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 276.
+(babel)             in language  on input line 271.
 Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 276.
+(babel)             in language  on input line 271.
 Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 276.
+(babel)             in language  on input line 271.
 Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 276.
+(babel)             in language  on input line 271.
 Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 276.
+(babel)             in language  on input line 271.
 Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 276.
+(babel)             in language  on input line 271.
 Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 276.
-[5] <images/1models/useCase.png, id=105, 542.7477pt x 413.3844pt>
+(babel)             in language  on input line 271.
+[5] <images/1models/useCase.png, id=100, 542.7477pt x 413.3844pt>
 File: images/1models/useCase.png Graphic file (type png)
 
 <use images/1models/useCase.png>
 Package pdftex.def Info: images/1models/useCase.png used on input line 305.
 (pdftex.def)             Requested size: 434.19875pt x 330.70796pt.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 308.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 308.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 308.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 308.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 308.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 308.
+Package babel Info: Redefining spanish shorthand <<
+(babel)             in language  on input line 308.
+Package babel Info: Redefining spanish shorthand >>
+(babel)             in language  on input line 308.
+Package babel Info: Redefining spanish shorthand "=
+(babel)             in language  on input line 308.
+Package babel Info: Redefining spanish shorthand "~
+(babel)             in language  on input line 308.
+Package babel Info: Redefining spanish shorthand "!
+(babel)             in language  on input line 308.
+Package babel Info: Redefining spanish shorthand "?
+(babel)             in language  on input line 308.
+ [6]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 309.
 Package babel Info: Redefining spanish shorthand >>
@@ -1116,39 +1146,14 @@ Package caption Warning: \label without proper \caption on input line 318.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `BPMN' on page 6 undefined on input line 310.
+LaTeX Warning: Reference `BPMN' on page 7 undefined on input line 310.
 
-<images/1models/comision.png, id=107, 604.50844pt x 744.53156pt>
+<images/1models/comision.png, id=109, 604.50844pt x 744.53156pt>
 File: images/1models/comision.png Graphic file (type png)
 
 <use images/1models/comision.png>
 Package pdftex.def Info: images/1models/comision.png used on input line 319.
 (pdftex.def)             Requested size: 423.15302pt x 521.16853pt.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 322.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 322.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 322.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 322.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 322.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 322.
-Package babel Info: Redefining spanish shorthand <<
-(babel)             in language  on input line 322.
-Package babel Info: Redefining spanish shorthand >>
-(babel)             in language  on input line 322.
-Package babel Info: Redefining spanish shorthand "=
-(babel)             in language  on input line 322.
-Package babel Info: Redefining spanish shorthand "~
-(babel)             in language  on input line 322.
-Package babel Info: Redefining spanish shorthand "!
-(babel)             in language  on input line 322.
-Package babel Info: Redefining spanish shorthand "?
-(babel)             in language  on input line 322.
- [6]
 Package babel Info: Redefining spanish shorthand <<
 (babel)             in language  on input line 322.
 Package babel Info: Redefining spanish shorthand >>
@@ -1182,7 +1187,7 @@ See the caption package documentation for explanation.
 LaTeX Warning: Reference `subProcesoBPMN' on page 8 undefined on input line 322
 .
 
-<images/1models/envioGto.png, id=123, 542.77782pt x 310.15875pt>
+<images/1models/envioGto.png, id=118, 542.77782pt x 310.15875pt>
 File: images/1models/envioGto.png Graphic file (type png)
 
 <use images/1models/envioGto.png>
@@ -1233,7 +1238,7 @@ See the caption package documentation for explanation.
 
 LaTeX Warning: Reference `classDiagram' on page 9 undefined on input line 331.
 
-<images/1models/DiagramaClases.png, id=132, 599.1183pt x 341.1144pt>
+<images/1models/DiagramaClases.png, id=127, 599.1183pt x 341.1144pt>
 File: images/1models/DiagramaClases.png Graphic file (type png)
 
 <use images/1models/DiagramaClases.png>
@@ -1372,49 +1377,37 @@ LaTeX Info: Redefining \% on input line 26.
 )
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 348.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 348.
+Package rerunfilecheck Info: File `ProjectReport.out' has not changed.
+(rerunfilecheck)             Checksum: 402E8F3549C04A787117E64C0E425535;660.
 
-
-Package rerunfilecheck Warning: File `ProjectReport.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `ProjectReport.out':
-(rerunfilecheck)             Before: 0D26BB8EDBF1D772D0BD509816AAD5F1;722
-(rerunfilecheck)             After:  402E8F3549C04A787117E64C0E425535;660.
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 348.
  ) 
 Here is how much of TeX's memory you used:
- 10425 strings out of 493085
- 149920 string characters out of 6136917
- 259953 words of memory out of 5000000
- 13728 multiletter control sequences out of 15000+600000
+ 10423 strings out of 493085
+ 149896 string characters out of 6136917
+ 258903 words of memory out of 5000000
+ 13727 multiletter control sequences out of 15000+600000
  16108 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 44i,12n,43p,679b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section.2.5} has been referenced but does not exi
-st, replaced by a fixed one
-
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/fo
-nts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-
-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb><
-/usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fon
-ts/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm-s
-uper/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb></
-usr/share/texmf/fonts/type1/public/cm-super/sfcc1728.pfb></usr/share/texmf/font
-s/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-su
-per/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb></u
-sr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fonts
-/type1/public/cm-super/sfxc2074.pfb>
-Output written on ProjectReport.pdf (12 pages, 949656 bytes).
+ 44i,12n,43p,679b,511s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texmf/
+fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/c
+m-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx2074.pfb
+></usr/share/texmf/fonts/type1/public/cm-super/sfbx2488.pfb></usr/share/texmf/f
+onts/type1/public/cm-super/sfcc1000.pfb></usr/share/texmf/fonts/type1/public/cm
+-super/sfcc1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfcc1440.pfb>
+</usr/share/texmf/fonts/type1/public/cm-super/sfcc1728.pfb></usr/share/texmf/fo
+nts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-
+super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfti1000.pfb><
+/usr/share/texmf/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texmf/fon
+ts/type1/public/cm-super/sfxc2074.pfb>
+Output written on ProjectReport.pdf (12 pages, 946577 bytes).
 PDF statistics:
- 200 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
- 35 named destinations out of 1000 (max. 500000)
- 114 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 195 PDF objects out of 1000 (max. 8388607)
+ 158 compressed objects within 2 object streams
+ 34 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
