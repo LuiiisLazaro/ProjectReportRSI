@@ -5,10 +5,8 @@
 \contentsline {section}{\numberline {2.1}Introducci\IeC {\'o}n}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}Historias de Usuario}{3}{section.2.2}
 \contentsline {section}{\numberline {2.3}Diagrama de Casos de Uso}{5}{section.2.3}
-\contentsline {section}{\numberline {2.4}Diagrama BPMN (Business Process Model and Notacion)}{7}{section.2.4}
-\contentsline {section}{\numberline {2.5}Diagrama de clases}{8}{section.2.5}
-\contentsline {section}{\numberline {2.6}Conclusiones}{8}{section.2.6}
-\contentsline {chapter}{\numberline {3}Lecciones Aprendidas de una Identificaci\IeC {\'o}n de Requerimientos}{9}{chapter.3}
-\contentsline {section}{\numberline {3.1}Lecciones Aprendidas}{9}{section.3.1}
-\contentsline {section}{\numberline {3.2}Trabajos Futuros}{9}{section.3.2}
-\contentsline {section}{\numberline {3.3}conclusiones}{9}{section.3.3}
+\contentsline {section}{\numberline {2.4}Diagrama BPMN (Business Process Model and Notacion)}{6}{section.2.4}
+\contentsline {section}{\numberline {2.5}Diagrama de clases}{9}{section.2.5}
+\contentsline {chapter}{\numberline {3}Lecciones Aprendidas}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}conclusiones}{11}{section.3.1}
+\contentsline {section}{\numberline {3.2}Trabajos Futuros}{11}{section.3.2}
