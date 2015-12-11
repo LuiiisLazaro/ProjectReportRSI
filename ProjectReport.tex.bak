@@ -254,7 +254,6 @@ Cabe aclarar que para enviar los documentos a Guanajuato el Dr.\textbf{Cuauhtém
             \item[<<Responsable>>]: Investigador (es)
         \end{description}
     }}
-    
        
     \section{Diagrama de Casos de Uso}
     En esta sección se muestra el diagrama de casos de uso, propuesto para el análisis de requerimientos. A continuación se muestra una breve descripción  de los casos de uso identificados.\\
@@ -292,21 +291,18 @@ Cabe aclarar que para enviar los documentos a Guanajuato el Dr.\textbf{Cuauhtém
             \item[Verificar Fondos]: Caso de Uso para comprobar si el proyecto tiene fondos para autorizar la comisión.
             \item[Autorizar Oficio de Comisión]: Caso de uso para autorizar la comisión al investigador.
                 \begin{description}
-                    \item[Validar Oficio de Comisión]: Caso de uso para validar la información del oficio de comisión 
+                    \item[Validar Oficio de Comisión]: Caso de uso para validar la información del oficio de comisión. 
                 \end{description}
         \end{description}
     \end{enumerate}
-    
-    \begin{figure}[H]
+    \begin{figure}
 		\centering
 			\label{logoCimat}
-		    \includegraphics[scale = 0.80]{images/1models/useCase.png}
+		    \includegraphics[scale = 0.70]{images/1models/useCase.png}
 			\caption{Diagrama de Casos de Uso} 
-	\end{figure}    
-    
+	\end{figure}
     \section{Diagrama BPMN (Business Process Model and Notacion)}
-    
-    	\begin{figure}[H]
+        	\begin{figure}[H]
     		\centering
     			\includegraphics[scale=0.80]{images/1models/comision.png}  
     			\caption{Diagrama BPMN}  		
